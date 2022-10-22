@@ -1,0 +1,79 @@
+body {
+    background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("https://i.pinimg.com/originals/04/a8/f5/04a8f5d6e10ae4315a64aa916fea9178.jpg");
+    margin: 0px 0px;
+
+}
+/*banner de navegacion*/
+.navegation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 8vh;
+   
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.7));
+    padding: 1vw 0vh;
+    margin: 0px;
+    
+}
+
+.logo {
+    font-size: 18px;
+    padding:3vh 5vw;
+    color: #ffffff;
+    font-family: 'Kaushan Script', cursive;
+
+}
+
+#logosDEredes1 {
+    padding: 0vw 1vh;
+
+}
+.logosDEredes {
+    width: 6vh;
+    height: 6vh;
+}
+/*banner de navegacion*/
+
+/*barra de secciones*/
+
+.secciones {
+    background-color: black;
+    padding: 0vw 0vh;
+    width: 100vw;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkDEsecciones {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    padding: 1vw 2vh;
+    display: block;
+    
+}
+
+.linkDEsecciones:hover {
+    background-color: rgba(255, 255, 255, 0.24);
+    color: rgb(255, 255, 255);
+}
+/*barra de secciones*/
+
+/*comandos de contenido 1*/
+
+.contenido1 {
+    background-color: rgb(255, 255, 255);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px 30px 0px 0px;
+    height: 60vh;
+    padding: 0;
+    margin: 1vw 3vh;
+}
